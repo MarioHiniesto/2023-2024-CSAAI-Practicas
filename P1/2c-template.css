@@ -5,19 +5,39 @@
     box-sizing: border-box;
   }
   
-/* Crear columnas de ancho diferente que se colocan una a continuación de la otra */
-.columna {
-float: left;
-padding: 10px;
-min-height: 500px;
-}
 
+body
+{
+  background-color: #13710d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+/* Crear columnas de ancho diferente que se colocan una a continuación de la otra */
+.fila
+{
+position: relative;
+width: 100%;
+max-width: 1500px;
+min-height: 1000px;
+margin: 50px;
+background-color: #fff;
+display: grid;
+grid-template-columns: 1fr 2fr;            /* Uso la funcion grid para crear mis dos columnas*/
+box-shadow: 0 35px 55px rgba(0,0,0,0.1); /*Una ligera sombra para crear mas profundidad*/  
+
+}
 .izquierda {
-width: 25%;
+  position:relative;
+  background: #e68108;
+  padding: 40px;
 }
 
 .derecha {
-width: 75%;
+  position:relative;
+  background: #8C2D0D;
+  padding: 40px;
 }
 
 /* Clear floats despues de las columnas para eliminar la superposición */
@@ -25,14 +45,6 @@ width: 75%;
 content: "";
 display: table;
 clear: both;
-}
-
-#c1 {
-    background-color:blue;
-}
-
-#c2 {
-    background-color:#bbb;
 }
 
 /* estilos para imágenes https://www.w3schools.com/css/css3_images.asp */
