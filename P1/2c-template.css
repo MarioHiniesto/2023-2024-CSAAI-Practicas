@@ -26,7 +26,42 @@ background-color: #fff;
 display: grid;
 grid-template-columns: 1fr 2fr;            /* Uso la funcion grid para crear mis dos columnas*/
 box-shadow: 0 35px 55px rgba(0,0,0,0.1); /*Una ligera sombra para crear mas profundidad*/  
+}
 
+.Texto
+{
+  color:#fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: 20px;
+  border-bottom: 2px solid rgba(95,57,13,0.2);
+
+
+}
+
+.Texto h2
+{
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 1.4em;
+}
+.Texto h2 span
+{
+font-size: 0.8em;
+font-weight: 300;
+
+}
+#imgportrait
+{
+  position: relative;
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .izquierda {
   position:relative;
