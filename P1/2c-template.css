@@ -8,7 +8,7 @@
 
 body
 {
-  background-color: #13710d;
+  background-color: #ffdd8c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@ width: 100%;
 max-width: 1500px;
 min-height: 1000px;
 margin: 50px;
-background-color: #fff;
+background-color: black;
 display: grid;
 grid-template-columns: 1fr 2fr;            /* Uso la funcion grid para crear mis dos columnas*/
 box-shadow: 0 35px 55px rgba(0,0,0,0.1); /*Una ligera sombra para crear mas profundidad*/  
@@ -30,14 +30,12 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1); /*Una ligera sombra para crear mas prof
 
 .Texto
 {
-  color:#fff;
+  color:black;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: 20px;
   border-bottom: 2px solid rgba(95,57,13,0.2);
-
-
 }
 
 .Texto h2
@@ -63,15 +61,23 @@ font-weight: 300;
   border-radius: 50%;
   overflow: hidden;
 }
+#imgluke
+{
+  position: static;
+  width: 400px;
+  height: 200px;
+  border-style: dotted;
+  overflow: hidden;
+}
 .izquierda {
   position:relative;
-  background: #e68108;
+  background: #cc4e00;
   padding: 40px;
 }
 
 .derecha {
   position:relative;
-  background: #8C2D0D;
+  background: #ff8030;
   padding: 40px;
 }
 
