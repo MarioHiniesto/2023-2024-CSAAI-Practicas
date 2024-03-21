@@ -14,7 +14,7 @@ h1{
 
 .clave{
     text-align: center;
-    color: green;
+    color: red;
 }
 
 button{
@@ -28,6 +28,7 @@ button{
     margin-right: 1px;
     margin-left: 1px;
 }
+
 .fila{
     text-align: center;
 }
@@ -38,5 +39,14 @@ button{
     font-size: 40px;
 }
 
+#start{
+    color: red;
+}
 
+#stop{
+    color: red;
+}
 
+#reset{
+    color: red;
+}
